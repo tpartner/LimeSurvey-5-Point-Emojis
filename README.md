@@ -11,8 +11,8 @@ Compatible with LimeSurvey versions 3.x, 4.x and 5.x.
     - **Theme manager (4.x, 5.x)** - Extract the download, compress (zip) the *5-Point-Emojis* folder and import via the theme manager.
 
 2) 3.x-4.x - Create a 5 point choice question, click Save.  
-![Image Select question theme](/5-Point-Emojis/survey/questions/answer/5pointchoice/assets/images/5-point-emojis-2.png)
-5.x - Create a 5 point choice question, click Save.  
+![Image Select question theme](/5-Point-Emojis/survey/questions/answer/5pointchoice/assets/images/5-point-emojis-2.png) 
+5.x - Create a 5 point choice question, click Save.    
 ![Image Select question theme](/5-Point-Emojis/survey/questions/answer/5pointchoice/assets/images/5-point-emojis-4.png)
 
 3) Set the question setting "Question theme" to " 	5-Point-Emojis ", click Save.  
