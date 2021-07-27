@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    A customization of the 5-point-choice question template to insert smileys.
+    A customization of the 5-point-choice question template to insert emojis.
 -->
 
 <config>
@@ -10,12 +10,14 @@
         <type>question_theme</type>
         <title>5 Point Emojis</title>
         <creationDate>18/12/2019</creationDate>
+        <lastUpdate>27/07/2021</lastUpdate>
         <author>Tony Partner</author>
-        <authorEmail>tpartner@partnersurveys.com</authorEmail>
         <authorUrl>http://partnersurveys.com</authorUrl>
+        <supportUrl>None</supportUrl>
         <license>GNU General Public License version 2 or later</license>
         <version>1.0</version>
         <apiVersion>1</apiVersion>
+        <lastSecurityUpdate>1.0</lastSecurityUpdate>
         <description>A 5-point emoji question</description>
         <questionType>5</questionType>
         <group>Single choice questions</group>
@@ -27,7 +29,9 @@
     </metadata>
 
     <compatibility>
+        <version>3.0</version>
         <version>4.0</version>
+        <version>5.0</version>
     </compatibility>
 
     <!--
@@ -40,6 +44,9 @@
         </css>
         <js>
         </js>
+        <preview>
+            <filename>images/5-point-emojis-1.png</filename>
+        </preview>
     </files>
 
     <custom_attributes>
