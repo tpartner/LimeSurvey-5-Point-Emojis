@@ -9,8 +9,8 @@
         <name>5-Point-Emojis</name>
         <type>question_theme</type>
         <title>5 Point Emojis</title>
-        <creationDate>18/12/2019</creationDate>
-        <lastUpdate>27/07/2021</lastUpdate>
+         <creationDate>2019-12-18 08:00</creationDate>
+        <lastUpdate>2023-01-17 08:00</lastUpdate>
         <author>Tony Partner</author>
         <authorUrl>http://partnersurveys.com</authorUrl>
         <supportUrl>None</supportUrl>
@@ -32,6 +32,7 @@
         <version>3.0</version>
         <version>4.0</version>
         <version>5.0</version>
+        <version>6.0</version>
     </compatibility>
 
     <!--
