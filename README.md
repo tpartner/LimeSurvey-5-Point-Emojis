@@ -1,18 +1,18 @@
 # 5-Point-Emojis for LimeSurvey
 **A custom question theme using emojis for a 5-point scale in LimeSurvey**
 
-Compatible with LimeSurvey versions 3.x, 4.x and 5.x.
+Compatible with LimeSurvey versions 3.x and newer.
 
 ![Image Emoji Scale](/5-Point-Emojis/survey/questions/answer/5pointchoice/assets/images/5-point-emojis-1.png)
 
 **Implementation:**
 
 1) - **Manual installation (all supported versions)** - Extract the download and upload the *5-Point-Emojis* folder to */pathToLimeSurvey/upload/themes/question/*.
-    - **Theme manager (4.x, 5.x)** - Extract the download, compress (zip) the *5-Point-Emojis* folder and import via the theme manager.
+    - **Theme manager (4.x and newer)** - Extract the download, compress (zip) the *5-Point-Emojis* folder and import via the theme manager.
 
 2) - **3.x-4.x** - Create a 5 point choice question, click Save.<br />
 ![Image Select question theme](/5-Point-Emojis/survey/questions/answer/5pointchoice/assets/images/5-point-emojis-2.png)
-    - **5.x** - Create a 5 point choice question, click Save.<br />
+    - **5.x and newer** - Create a 5 point choice question, click Save.<br />
     ![Image Select question theme](/5-Point-Emojis/survey/questions/answer/5pointchoice/assets/images/5-point-emojis-5.png)
 
 3) **3.x-4.x** - Set the question setting "Question theme" to " 	5-Point-Emojis ", click Save.  
