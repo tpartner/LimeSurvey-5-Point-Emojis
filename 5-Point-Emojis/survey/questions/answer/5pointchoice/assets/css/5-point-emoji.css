@@ -95,5 +95,5 @@
 }
 
 .five-point-emoji-list .emoji-item  label::after {
-	display: none;
+	display: none !important;
 }
