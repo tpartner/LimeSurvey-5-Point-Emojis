@@ -89,6 +89,7 @@
 .five-point-emoji-list .emoji-item-3 label::before { content:"\1F610"; }
 .five-point-emoji-list .emoji-item-4 label::before { content:"\1F642"; }
 .five-point-emoji-list .emoji-item-5 label::before { content:"\1F600"; }
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-5 label::before { content:"\1f636"; }
 
 .five-point-emoji-list .emoji-item input[type="radio"]:focus + label::before {
     outline: none;
