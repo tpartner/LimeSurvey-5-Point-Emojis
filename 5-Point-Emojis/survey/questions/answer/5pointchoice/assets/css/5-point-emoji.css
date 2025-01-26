@@ -13,14 +13,14 @@
 
 /** EMOJIS QUESTION **/
 
-.five-point-emoji-list {
+.choice-5-pt-radio .five-point-emoji-list {
 	width: 100%;
 	max-width: 395px;
 	padding: 0;
 	margin: 0 0 10px 0;
 }
 
-.five-point-emoji-list .emoji-item {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item {
 	display: block;
 	clear: none;
 	float: left;
@@ -31,7 +31,7 @@
 	margin: 0;
 }
 
-.five-point-emoji-list .emoji-item label {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item label {
 	position: relative;
 	display: block;
 	border: 1px solid #DBDBDB;
@@ -43,21 +43,21 @@
 	font-size: 0;
 }
 
-.five-point-emoji-list .emoji-item-5 label {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-5 label {
 	border-right:  1px solid #DBDBDB;
 }
 
-.five-point-emoji-list .emoji-item label:hover {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item label:hover {
 	background: #BADEB8;
 	opacity: 0.65;
 }
 
-.five-point-emoji-list .emoji-item input[type="radio"]:checked + label {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item input[type="radio"]:checked + label {
 	background: #BADEB8;
 	opacity: 1;
 }
 
-.five-point-emoji-list .emoji-item label::before {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item label::before {
     position: relative;
     left: auto;
 	top: auto;
@@ -79,21 +79,21 @@
 }
 
 @media only screen and (max-width: 480px) {
-	.five-point-emoji-list .emoji-item label::before {
+	.choice-5-pt-radio .five-point-emoji-list .emoji-item label::before {
 		font-size: 36px;
 	}
 }
 
-.five-point-emoji-list .emoji-item-1 label::before { content:"\1F622"; }
-.five-point-emoji-list .emoji-item-2 label::before { content:"\1F641"; }
-.five-point-emoji-list .emoji-item-3 label::before { content:"\1F610"; }
-.five-point-emoji-list .emoji-item-4 label::before { content:"\1F642"; }
-.five-point-emoji-list .emoji-item-5 label::before { content:"\1F600"; }
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-1 label::before { content:"\1F622"; }
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-2 label::before { content:"\1F641"; }
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-3 label::before { content:"\1F610"; }
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-4 label::before { content:"\1F642"; }
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-5 label::before { content:"\1F600"; }
 
-.five-point-emoji-list .emoji-item input[type="radio"]:focus + label::before {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item input[type="radio"]:focus + label::before {
     outline: none;
 }
 
-.five-point-emoji-list .emoji-item  label::after {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item  label::after {
 	display: none !important;
 }
