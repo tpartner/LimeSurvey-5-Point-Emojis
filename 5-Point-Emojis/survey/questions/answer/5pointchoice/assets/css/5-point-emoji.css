@@ -27,8 +27,14 @@
 	width: 18%;
 	width: 20%;
     padding: 0;
-	margin: 0 1%;
-	margin: 0;
+	margin: 0  0 10px 0;
+}
+
+.choice-5-pt-radio .five-point-emoji-list .emoji-item.noanswer-item {
+	clear: both;
+	float: none;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .choice-5-pt-radio .five-point-emoji-list .emoji-item label {
@@ -43,7 +49,8 @@
 	font-size: 0;
 }
 
-.choice-5-pt-radio .five-point-emoji-list .emoji-item-5 label {
+.choice-5-pt-radio .five-point-emoji-list .emoji-item-5 label,
+.choice-5-pt-radio .five-point-emoji-list .emoji-item.noanswer-item label {
 	border-right:  1px solid #DBDBDB;
 }
 
@@ -89,6 +96,7 @@
 .choice-5-pt-radio .five-point-emoji-list .emoji-item-3 label::before { content:"\1F610"; }
 .choice-5-pt-radio .five-point-emoji-list .emoji-item-4 label::before { content:"\1F642"; }
 .choice-5-pt-radio .five-point-emoji-list .emoji-item-5 label::before { content:"\1F600"; }
+.choice-5-pt-radio .five-point-emoji-list .emoji-item.noanswer-item label::before { content:"\1F636"; }
 
 .choice-5-pt-radio .five-point-emoji-list .emoji-item input[type="radio"]:focus + label::before {
     outline: none;
