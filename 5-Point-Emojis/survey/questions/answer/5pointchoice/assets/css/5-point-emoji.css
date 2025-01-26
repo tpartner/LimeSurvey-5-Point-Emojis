@@ -1,6 +1,6 @@
 @font-face {
-    font-family: fivePointColorEmojis;
-    src: url(../fonts/NotoColorEmoji.ttf);
+	font-family: fivePointColorEmojis;
+	src: url(../fonts/NotoColorEmoji.ttf);
 }
 
 /***** 
@@ -26,15 +26,15 @@
 	float: left;
 	width: 18%;
 	width: 20%;
-    padding: 0;
+	padding: 0;
 	margin: 0  0 10px 0;
 }
 
 .choice-5-pt-radio .five-point-emoji-list .emoji-item.noanswer-item {
 	clear: both;
 	float: none;
-    margin-right: auto;
-    margin-left: auto;
+	margin-right: auto;
+	margin-left: auto;
 }
 
 .choice-5-pt-radio .five-point-emoji-list .emoji-item label {
@@ -65,24 +65,24 @@
 }
 
 .choice-5-pt-radio .five-point-emoji-list .emoji-item label::before {
-    position: relative;
-    left: auto;
+	position: relative;
+	left: auto;
 	top: auto;
-    display: block;
-    width: auto;
-    height: auto;
-    margin: 5px;
-    padding: 0;
-    border: 0 none;
-    border-radius: 0;
+	display: block;
+	width: auto;
+	height: auto;
+	margin: 5px;
+	padding: 0;
+	border: 0 none;
+	border-radius: 0;
 	background: transparent none;
 	background-size: cover;
-    filter: alpha(opacity=50);
+	filter: alpha(opacity=50);
 	text-align: center; 
 	font-size: 48px;
-    font-family: fivePointColorEmojis;
-    font-weight: 400 !important;
-    font-style: normal !important;
+	font-family: fivePointColorEmojis;
+	font-weight: 400 !important;
+	font-style: normal !important;
 }
 
 @media only screen and (max-width: 480px) {
@@ -99,7 +99,7 @@
 .choice-5-pt-radio .five-point-emoji-list .emoji-item.noanswer-item label::before { content:"\1F636"; }
 
 .choice-5-pt-radio .five-point-emoji-list .emoji-item input[type="radio"]:focus + label::before {
-    outline: none;
+	outline: none;
 }
 
 .choice-5-pt-radio .five-point-emoji-list .emoji-item  label::after {
