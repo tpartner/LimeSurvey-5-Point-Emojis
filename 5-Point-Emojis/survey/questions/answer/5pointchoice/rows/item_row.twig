@@ -23,7 +23,7 @@
 {% elseif value == '5' %}
         {% set ariaLabel =  question_template_attribute.aria_label_5 %}
 {% else %}
-    {% set ariaLabel = '' %}
+    {% set ariaLabel = labelText %}
 {% endif %}
 
 <!-- Item row -->
@@ -35,6 +35,6 @@
         value="{{value}}"
         {{checkedState}}
     />
-    <label for="answer{{id}}" class="control-label radio-label" role="img" aria-label="{{ariaLabel}}">{{labelText}}</label>
+    <label for="answer{{id}}" class="control-label radio-label" role="img" aria-label="{{ariaLabel}}" title="{{ariaLabel}}">{{labelText}}</label>
 </div>
 <!-- end of Item row -->
