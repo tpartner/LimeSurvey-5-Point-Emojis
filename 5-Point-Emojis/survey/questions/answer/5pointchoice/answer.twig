@@ -17,7 +17,7 @@
 
 <div class="{{coreClass}} list-unstyled form-inline five-point-emoji-list" role="radiogroup" aria-labelledby="ls-question-text-{{name}}">
     {% for aRow in aRows %}
-        {% include './survey/questions/answer/5pointchoice/rows/item_row.twig' with aRow only %}
+        {% include './survey/questions/answer/5pointchoice/rows/item_row.twig' with aRow|merge(question_template_attribute) %}
     {% endfor %}
     <div class="clearfix"></div>
 </div>

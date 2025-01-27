@@ -13,15 +13,15 @@
 #}
 
 {% if value == '1' %}
-        {% set ariaLabel = 'Very sad' %}
+        {% set ariaLabel = question_template_attribute.aria_label_1 %}
 {% elseif value == '2' %}
-        {% set ariaLabel = 'Sad' %}
+        {% set ariaLabel =  question_template_attribute.aria_label_2 %}
 {% elseif value == '3' %}
-        {% set ariaLabel = 'Neutral' %}
+        {% set ariaLabel =  question_template_attribute.aria_label_3 %}
 {% elseif value == '4' %}
-        {% set ariaLabel = 'Happy' %}
+        {% set ariaLabel =  question_template_attribute.aria_label_4 %}
 {% elseif value == '5' %}
-        {% set ariaLabel = 'Very happy' %}
+        {% set ariaLabel =  question_template_attribute.aria_label_5 %}
 {% else %}
     {% set ariaLabel = '' %}
 {% endif %}
