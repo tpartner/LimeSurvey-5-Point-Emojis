@@ -102,7 +102,6 @@
             <default>Very happy</default>
             <i18n>1</i18n>
         </attribute>
-		
         <!-- Hide some core attributes -->
         <attribute>
             <name>slider_rating</name>
@@ -111,7 +110,67 @@
             <default>0</default>
         </attribute>
     </custom_attributes>
-
+    <!-- Compatibility issue with LimeSurvey 6 : attributes === custom_attributes -->
+    <attributes>
+        <!-- New attributes -->
+        <attribute>
+            <name>aria_label_1</name>
+            <category>Custom options</category>
+            <sortorder>0</sortorder>
+            <inputtype>text</inputtype>
+            <help>Text for the aria-label attribute for item 1</help>
+            <caption>Aria label 1</caption>
+            <default>Very sad</default>
+            <i18n>1</i18n>
+        </attribute>
+        <attribute>
+            <name>aria_label_2</name>
+            <category>Custom options</category>
+            <sortorder>0</sortorder>
+            <inputtype>text</inputtype>
+            <help>Text for the aria-label attribute for item 2</help>
+            <caption>Aria label 2</caption>
+            <default>Sad</default>
+            <i18n>1</i18n>
+        </attribute>
+        <attribute>
+            <name>aria_label_3</name>
+            <category>Custom options</category>
+            <sortorder>0</sortorder>
+            <inputtype>text</inputtype>
+            <help>Text for the aria-label attribute for item 3</help>
+            <caption>Aria label 3</caption>
+            <default>Neutral</default>
+            <i18n>1</i18n>
+        </attribute>
+        <attribute>
+            <name>aria_label_4</name>
+            <category>Custom options</category>
+            <sortorder>0</sortorder>
+            <inputtype>text</inputtype>
+            <help>Text for the aria-label attribute for item 4</help>
+            <caption>Aria label 4</caption>
+            <default>Happy</default>
+            <i18n>1</i18n>
+        </attribute>
+        <attribute>
+            <name>aria_label_5</name>
+            <category>Custom options</category>
+            <sortorder>0</sortorder>
+            <inputtype>text</inputtype>
+            <help>Text for the aria-label attribute for item 5</help>
+            <caption>Aria label 5</caption>
+            <default>Very happy</default>
+            <i18n>1</i18n>
+        </attribute>
+        <!-- Hide some core attributes -->
+        <attribute>
+            <name>slider_rating</name>
+            <category>Display</category>
+            <inputtype/>
+            <default>0</default>
+        </attribute>
+    </attributes>
     <!-- Here datas about how LimeSurvey should load the core js/css of the question -->
     <engine>
         <load_core_css>true</load_core_css>
